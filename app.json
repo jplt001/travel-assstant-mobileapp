@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "travel-assistant-mobile-app",
-    "slug": "travel-assistant-mobile-app",
+    "slug": "travel-assistant-mobileapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jplt001.travelassistantmobileapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jplt001.travelassistantmobileapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bf09ce36-5ad5-4469-93fd-0dad2bed8d28"
+      }
+    },
+    "owner": "jplt001"
   }
 }
